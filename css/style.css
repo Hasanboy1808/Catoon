@@ -32,6 +32,8 @@ body{
     display: flex;
     font-size: 36px;
     margin-right: auto;
+    color: azure;
+    text-decoration: none;
 }
 .headercontiener{
     display: flex;
@@ -39,4 +41,11 @@ body{
 }
 .navitems{
     display: flex;
+}
+.items{
+    padding-right: 10px;
+}
+.items a{
+    color: azure;
+    text-decoration: none;
 }
