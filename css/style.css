@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 *:focus{
-    outline: 2px dotted rgb(23, 88, 88);
+    outline: 2px dotted rgb(39, 153, 153);
     outline-offset: 3px;
 }
 body{
@@ -22,7 +22,7 @@ body{
     padding: 0 20px;
 }
 .headerbox{
-    background-color: rgb(123, 223, 226);
+    background-color: rgb(32, 141, 145);
     height: 500px;
     
 }
