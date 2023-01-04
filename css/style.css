@@ -3,8 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
-h1{
-    color: blue;
-    text-align: center;
-    font-size: 56px;
+body{
+    font-family: Arial,sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.16200000047683716px;
+/* text-align: left; */
+
 }
+
