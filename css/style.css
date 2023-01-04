@@ -37,3 +37,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.navitems{
+    display: flex;
+}
