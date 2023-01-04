@@ -38,6 +38,7 @@ body{
 .headercontiener{
     display: flex;
     justify-content: space-between;
+    padding: 20px 0;
 }
 .navitems{
     display: flex;
