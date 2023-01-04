@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 *:focus{
-    outline: 2px dotted aqua;
+    outline: 2px dotted rgb(23, 88, 88);
     outline-offset: 3px;
 }
 body{
