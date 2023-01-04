@@ -28,3 +28,12 @@ body{
     height: 500px;
     
 }
+.logo{
+    display: flex;
+    font-size: 36px;
+    margin-right: auto;
+}
+.headercontiener{
+    display: flex;
+    justify-content: space-between;
+}
