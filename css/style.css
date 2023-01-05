@@ -23,11 +23,6 @@ body{
     margin: 0 auto;
     padding: 0 20px;
 }
-.headerbox{
-    background-color: rgb(0, 0, 0);
-    height: 500px;
-    
-}
 .logo{
     display: flex;
     font-size: 36px;
@@ -44,9 +39,53 @@ body{
     display: flex;
 }
 .items{
-    padding-right: 10px;
+    margin-right: 10px;
+    list-style: none;
 }
 .items a{
     color: azure;
     text-decoration: none;
+    /* padding: 20px; */
+}
+.items:hover{
+    background-color: blue;
+    color: blanchedalmond;
+    padding: 10px 20px;
+}
+.herobox1{
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    
+}
+.herobox1{
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: block;
+    /* position: static; */
+    
+}
+h1{
+    color: white;
+    font-size: 54px;
+    line-height: normal;
+    padding-top: 100px;
+
+}
+.btn{
+    position: absolute;
+    color: white;
+    padding: 10px 20px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.btn:active{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
 }
