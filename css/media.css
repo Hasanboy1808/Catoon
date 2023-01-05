@@ -1,6 +1,8 @@
 @media screen and (max-width:430px) {
     .logo{
         font-size: 22px;
+        padding-left: 20px;
+        padding-top: 10px;
     }
     .navitems{
         display: none;
