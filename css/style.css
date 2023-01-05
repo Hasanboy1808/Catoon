@@ -54,16 +54,29 @@ body{
     color: blanchedalmond;
     padding: 5px 10px;
 }
-#burgernav{
-    display: none;
-    font-size: 55px;
-}
+
  .items:active{
     opacity: 0.8;
     border: none;
     background-color: blue;
     color: blanchedalmond;
     padding: 5px 10px; 
+}
+.menu380px{
+    height: 70px;
+    position: absolute;
+    margin-top: 50px;
+    z-index: 5;
+    right: 100px;
+    display: none;
+}
+.menu380px span{
+    background-color: #070707;
+    height: 5px;
+    width: 25px;
+    display: block;
+    margin-top: 5px;
+
 }
 
 .herobox1{

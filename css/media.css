@@ -5,9 +5,28 @@
     .headernav{
         display: none;
     }
-    #burgernav{
+    .burgernav{
+        /* display: none; */
+        font-size: 55px;
         display: block;
         color: white;
 
+
+    }
+    .menu380px{
+        height: 70px;
+        position: absolute;
+        z-index: 5;
+        right: 35px;
+        top: -5px;
+        display: block;
+    }
+    .menu380px span{
+        background-color: #070707;
+        height: 5px;
+        width: 25px;
+        display: block;
+        margin-top: 5px;
+    
     }
 }
