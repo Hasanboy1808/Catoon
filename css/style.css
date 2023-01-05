@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 *:focus{
-    outline: 2px dotted rgb(39, 153, 153);
+    /* outline: 2px dotted rgb(39, 153, 153); */
+    outline: none;
     outline-offset: 3px;
 }
 body{
@@ -52,12 +53,12 @@ body{
     color: blanchedalmond;
     padding: 5px 10px;
 }
-.items:active{
+ .items:active{
     opacity: 0.8;
     border: none;
     background-color: blue;
     color: blanchedalmond;
-    padding: 5px 10px;
+    padding: 5px 10px; 
 }
 .items:checked{
     border: none;
