@@ -52,6 +52,14 @@ body{
     color: blanchedalmond;
     padding: 5px 10px;
 }
+.items:active{
+    opacity: 0.8;
+    border: none;
+}
+.items:checked{
+    border: 1px solid blue;
+    outline: none;
+}
 .herobox1{
     background-color: rgb(0, 0, 0);
     height: 500px;
@@ -87,5 +95,8 @@ h1{
 .btn:active{
     background-color: white;
     color: blue;
+    border: 1px solid blue;
+}
+.btn:checked{
     border: 1px solid blue;
 }
