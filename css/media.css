@@ -17,6 +17,7 @@
     }
     .h1{
         font-size: 30px;
+        max-width: 300px;
     }
     .menu380px{
         height: 70px;
