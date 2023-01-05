@@ -54,6 +54,10 @@ body{
     color: blanchedalmond;
     padding: 5px 10px;
 }
+#burgernav{
+    display: none;
+    font-size: 55px;
+}
  .items:active{
     opacity: 0.8;
     border: none;
@@ -61,18 +65,13 @@ body{
     color: blanchedalmond;
     padding: 5px 10px; 
 }
-.items:checked{
-    border: none;
-    outline: none;
-    background-color: blue;
-    color: blanchedalmond;
-    padding: 5px 10px;
-}
+
 .herobox1{
     background-color: rgb(0, 0, 0);
     height: 500px;
     
 }
+
 .herobox1{
     background-color: rgb(0, 0, 0);
     height: 500px;
