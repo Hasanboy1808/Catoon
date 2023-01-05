@@ -36,4 +36,14 @@
         margin-top: 5px;
     
     }
+    .btn{
+        position: absolute;
+        color: white;
+        padding: 5px 10px;
+        background-color: blue;
+        border: 1px solid blue;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 50px;
+    }
 }
