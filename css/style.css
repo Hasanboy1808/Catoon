@@ -39,6 +39,7 @@ body{
 .navitems{
     display: flex;
 }
+
 .items{
     margin-right: 10px;
     list-style: none;
