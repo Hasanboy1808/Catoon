@@ -55,10 +55,16 @@ body{
 .items:active{
     opacity: 0.8;
     border: none;
+    background-color: blue;
+    color: blanchedalmond;
+    padding: 5px 10px;
 }
 .items:checked{
-    border: 1px solid blue;
+    border: none;
     outline: none;
+    background-color: blue;
+    color: blanchedalmond;
+    padding: 5px 10px;
 }
 .herobox1{
     background-color: rgb(0, 0, 0);
@@ -99,4 +105,7 @@ h1{
 }
 .btn:checked{
     border: 1px solid blue;
+}
+.heroitems{
+    display: flex;
 }
