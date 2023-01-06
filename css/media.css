@@ -52,12 +52,12 @@
     }
     .swiper {
         width: 100%;
-        height: 200px;
+        height: 240px;
       }
       .swiper-slide {
         margin-left: 10px;
         width: 30%;
-        height: 200px;
+        height: 80px;
       }
     
       .swiper-slide:nth-child(2n) {
