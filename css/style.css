@@ -119,14 +119,14 @@ h1{
 .btn:hover{
     opacity: 0.9;
 }
-.btn:active{
+/* .btn:active{
     background-color: white;
     color: blue;
     border: 1px solid blue;
 }
 .btn:checked{
     border: 1px solid blue;
-}
+} */
 .heroitems{
     display: flex;
 }
