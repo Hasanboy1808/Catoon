@@ -1,6 +1,6 @@
 let btnalert = document.getElementById('btn')
 
-function(btnalert,alert){
+function(btnalert,){
     alert(
         'salom'
     )
@@ -8,6 +8,7 @@ function(btnalert,alert){
         const element = array[index];
         
     }
+    console.log(btnalert);
 }
 function()
 
