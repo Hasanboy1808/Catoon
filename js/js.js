@@ -1,5 +1,15 @@
-alert('salom')
+let btnalert = document.getElementById('btn')
 
+function(btnalert:  = 1){
+    alert(
+        'salom'
+    )
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        
+    }
+}
+function()
 
 
 
