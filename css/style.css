@@ -117,7 +117,7 @@ h1{
     margin-top: 50px;
 }
 .btn:hover{
-    opacity: 0.7;
+    opacity: 0.9;
 }
 .btn:active{
     background-color: white;
