@@ -9,7 +9,7 @@ let answers = []
     answers= prompt (questions[i])
     
  }
-console.log();
+console.log(answers)
 
 
 
