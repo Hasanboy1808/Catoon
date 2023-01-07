@@ -1,18 +1,15 @@
-let btnalert = document.getElementById('btn')
+let answers = []
+ let questions = [
+    "Xush kelibsiz Ismingiz ?",
+    "Yoshingiz Nechida ?",
+    "Qaysi Viloyatdan siz ?"
+ ]
 
-function(btnalert,){
-    alert(
-        'salom'
-    )
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-        
-    }
-    console.log(btnalert);
-}
-function()
-
-
+ for (let i = 0; i < questions.length; i++) {
+    answers= prompt (questions[i])
+    
+ }
+console.log();
 
 
 
