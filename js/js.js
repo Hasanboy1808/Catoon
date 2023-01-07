@@ -1,6 +1,6 @@
 let btnalert = document.getElementById('btn')
 
-function(btnalert:  = 1){
+function(btnalert,alert){
     alert(
         'salom'
     )
