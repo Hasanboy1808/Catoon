@@ -5,7 +5,8 @@ let answers = []
     "Qaysi Viloyatdan siz ?"
  ]
 
- for (let answers = 0; i < questions.length; i++) {
+ for (let answers = 0; i < questions.length; i++) 
+ {
     answers= prompt (questions[i])
     
  }
