@@ -67,4 +67,7 @@
       .swiper-slide:nth-child(3n) {
         width: 30%;
       }
+      .heroitems img{
+        display: block;
+      }
 }
