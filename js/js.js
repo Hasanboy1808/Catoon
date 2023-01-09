@@ -2,7 +2,7 @@ let answers = []
  let questions = [
     "Xush kelibsiz Ismingiz ?",
     "Yoshingiz Nechida ?",
-    "Qaysi Viloyatdan siz ?"
+    "Qaysi Viloyatdan siz ?."
  ]
 
  for (let answers = 0; i < questions.length; i++) 
