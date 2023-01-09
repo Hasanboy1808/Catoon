@@ -48,7 +48,7 @@
     }
     .heroitems img{
         /* width: 250px; */
-        display: inline-block;
+        display: block;
     }
     .swiper {
         width: 100%;
