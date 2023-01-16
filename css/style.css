@@ -111,6 +111,7 @@ h1{
     padding: 10px 20px;
     background-color: blue;
     border-radius: 10px;
+    color: #ffffff;
 }
 .btn10:hover{
     opacity: .8;
