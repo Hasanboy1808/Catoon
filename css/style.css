@@ -56,9 +56,8 @@ body{
     /* padding: 20px; */
 }
 .items:hover{
-    background-color: blue;
-    color: blanchedalmond;
-    padding: 5px 10px;
+    color: blue;
+    text-shadow: 1px 1px blue;
 }
 
  .items:active{
