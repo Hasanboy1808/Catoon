@@ -45,7 +45,11 @@ body{
 .navitems{
     display: flex;
 }
-
+.navitems:last-child{
+    padding: 10px 20px;
+    background-color: blue;
+    
+}
 .items{
     margin-right: 10px;
     list-style: none;
