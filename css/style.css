@@ -55,6 +55,9 @@ body{
     text-decoration: none;
     /* padding: 20px; */
 }
+.items a:hover{
+    color: blue;
+}
 .items:hover{
     color: blue;
     text-shadow: 1px 1px blue;
