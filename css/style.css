@@ -112,7 +112,12 @@ h1{
     background-color: blue;
     border-radius: 10px;
 }
-
+.btn10:hover{
+    opacity: .8;
+}
+.btn10:active{
+    opacity: .6;
+}
 .heroitems{
     display: flex;
 }
