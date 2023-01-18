@@ -1,0 +1,168 @@
+.animatsiay1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#p{
+    opacity: 0;
+    animation-name: p;
+    animation-direction: alternate;
+    animation-duration: 0.2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+#r{
+    opacity: 0;
+    animation-name: r;
+    animation-direction: alternate;
+    animation-duration: 0.3s;
+    animation-delay: 1.2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+#e{
+    opacity: 0;
+    animation-name: e;
+    animation-direction: alternate;
+    animation-duration: 0.4s;
+    animation-delay: 1.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+#m{
+    opacity: 0;
+    animation-name: m;
+    animation-direction: alternate;
+    animation-duration: 0.5s;
+    animation-delay: 1.4s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+#y{
+    opacity: 0;
+    animation-name: y;
+    animation-direction: alternate;
+    animation-duration: 0.6s;
+    animation-delay: 1.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+#e1{
+    opacity: 0;
+    animation-name: e1;
+    animation-direction: alternate;
+    animation-duration: 0.7s;
+    animation-delay: 1.6s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+#r1{
+    opacity: 0;
+    animation-name: r1;
+    animation-direction: alternate;
+    animation-duration: 0.8s;
+    animation-delay: 1.7s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+#a{
+    opacity: 0;
+    animation-name: a;
+    animation-direction: alternate;
+    animation-duration: 0.9s;
+    animation-delay: 1.8s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+#l{
+    opacity: 0;
+    animation-name: l;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 1.9s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+#a1{
+    opacity: 0;
+    animation-name: a1;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 1.9s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+
+#r2{
+    opacity: 0;
+    animation-name: r2;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 1.9s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+@keyframes r2 {
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes a1 {
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes l {
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes a {
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes r1 {
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes e1 {
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes p {
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes r {
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes e {
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes m {
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes y {
+    100%{
+        opacity: 1;
+    }
+}
