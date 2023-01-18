@@ -298,6 +298,29 @@ hr{
     width: 200px;
     height: 200px;
   }
+  .footer{
+    background-color: black;
+    height: 6;
+  }
+  .footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 60px;
+  }
+  .footer__nav{
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+
+  }
+  .footer__creator__text{
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 20px;
+    align-content: center;
+  }
   .footer__nav__item{
     color: #ffffff;
+    text-decoration: none;
   }
