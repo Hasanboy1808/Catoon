@@ -95,8 +95,6 @@ body{
  .items:active{
     opacity: 0.8;
     border: none;
-    color: blanchedalmond;
-    padding: 5px 10px; 
 }
 .menu380px{
     height: 70px;
