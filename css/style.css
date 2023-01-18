@@ -95,7 +95,6 @@ body{
  .items:active{
     opacity: 0.8;
     border: none;
-    background-color: blue;
     color: blanchedalmond;
     padding: 5px 10px; 
 }
