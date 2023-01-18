@@ -40,16 +40,41 @@ body{
 .headercontiener{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    align-items: center;
+    transform: translateY(-100px);
+    animation-name: text1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    /* animation-iteration-count: infinite; */
+    /* opacity: 0; */
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+@keyframes text1 {
+    100%{
+        transform: translateY(0px);
+    }
 }
 .navitems{
     display: flex;
+    align-items: center;
+    margin-top: 15px;
 }
-.navitems:last-child a{
-    padding: 10px 20px;
+.navbtn{
+    padding: 8px 15px;
     background-color: blue;
-
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
 }
+.navbtn:hover{
+    color: #ffffff;
+    text-shadow: none;
+    opacity: .8;
+}
+
 .items{
     margin-right: 10px;
     list-style: none;
@@ -91,7 +116,23 @@ body{
 
 }
 
-
+.maxwid{
+    transform: translateX(-100%);
+    animation-name: text2;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    /* animation-iteration-count: infinite; */
+    /* opacity: 0; */
+    animation-fill-mode: both; 
+    transition: all 3s;
+}
+@keyframes text2 {
+    100%{
+        transform: translateX(0);
+    }
+}
 .herobox1{
     background-color: rgb(0, 0, 0);
     height: 500px;
