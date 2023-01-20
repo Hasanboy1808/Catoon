@@ -101,6 +101,7 @@
     transition: all 3s;
 }
 
+
 #r2{
     opacity: 0;
     animation-name: r2;
@@ -165,4 +166,64 @@
     100%{
         opacity: 1;
     }
+}
+.img__animatsiya1{
+    transform: translateX(-600px);
+    animation-name: img1;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-delay: 1.9s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+@keyframes img1 {
+    100%{
+        transform: translateX(0);
+    }    
+}
+.img__animatsiya2{
+    transform: translateX(600px);
+    animation-name: img2;
+    animation-direction: alternate;
+    animation-duration: 2.5s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+@keyframes img2 {
+    100%{
+        transform: translateX(0);
+    }    
+}
+.img__animatsiya3{
+    transform: translateX(-600px);
+    animation-name: img3;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+@keyframes img3 {
+    100%{
+        transform: translateX(0);
+    }    
+}
+.text{
+    transform: translateX(600px);
+    animation-name: text;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+@keyframes text {
+    100%{
+        transform: translateX(0);
+    }    
 }

@@ -51,6 +51,7 @@ body{
     /* opacity: 0; */
     animation-fill-mode: both;
     transition: all 2s;
+    height: 75px;
 }
 @keyframes text1 {
     100%{
@@ -290,14 +291,7 @@ hr{
   .swiper-slide:nth-child(3n) {
     width: 30%;
   }
-  .heroitems1 img{
-    width: 200px;
-    height: 200px;
-  }
-  .heroitems2 img{
-    width: 200px;
-    height: 200px;
-  }
+
   .footer{
     background-color: black;
     height: 6;
@@ -323,4 +317,61 @@ hr{
   .footer__nav__item{
     color: #ffffff;
     text-decoration: none;
+  }
+
+  .contact{
+    margin: 0 auto;
+    /*display: none;*/
+    max-width: 600px;
+
+  }
+  .contact__container{
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* justify-self: center; */
+    /*flex-grow: inherit;*/
+    gap: 10px;
+    background-color:  #ffffff;
+    border: 1px solid red;
+  }
+  .contact__form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    
+    margin: 0 auto;
+  }
+  .contact__name{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid black 10px;
+  }
+  .contact__email{
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    
+  }
+  .contact__number{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .contact__text{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    max-width: 500px;
   }
