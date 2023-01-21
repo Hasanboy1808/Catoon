@@ -184,86 +184,11 @@
         transform: translateX(0);
     }    
 }
-.img__animatsiya2{
-    display: none;
-    transform: translateX(600px);
-    animation-name: img2;
-    animation-direction: alternate;
-    animation-duration: 2.5s;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    transition: all 3s;
-}
-@keyframes img2 {
-    100%{
-        display: block;
-
-        transform: translateX(0);
-    }    
-}
-.img__animatsiya3{
-    display: none;
-
-    transform: translateX(-600px);
-    animation-name: img3;
-    animation-direction: alternate;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    transition: all 3s;
-}
-@keyframes img3 {
-    100%{
-        transform: translateX(0);
-        display: block;
-
-    }    
-}
-.text2{
-    display: none;
-    transform: translateX(900px);
-    animation-name: text10;
-    animation-direction: alternate;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    transition: all 3s;
-}
-@keyframes text10 {
-    100%{
-        display: block;
-
-        transform: translateX(0);
-    }    
-
-}
-.text1{
-    display: none;
-
-    transform: translateX(-900px);
-    animation-name: text11;
-    animation-direction: alternate;
-    animation-duration: 2.5s;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    transition: all 3s;
-}
-@keyframes text11 {
-    100%{
-        transform: translateX(0);
-        display: block;
-
-    }    
-}
 .text{
-    display: none;
-    transform: translateX(900px);
+    position: absolute;
+    /* display: none; */
+    right: -750px;
     animation-name: text12;
-    animation-direction: alternate;
     animation-duration: 1s;
     animation-delay: 2s;
     animation-timing-function: linear;
@@ -272,7 +197,7 @@
 }
 @keyframes text12 {
     100%{
-        transform: translateX(0);
+        right: 150px;
         display: block;
 
     }    
