@@ -223,66 +223,6 @@
         transform: translateX(0);
     }    
 }
-.img__animatsiya2{
-    transform: translateX();
-    animation-name: img2;
-    animation-direction: alternate;
-    animation-duration: 2.5s;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    transition: all 3s;
-}
-@keyframes img2 {
-    0%{
-        transform: translateX(0);
-    }    
-}
-.img__animatsiya3{
-    transform: translateX(0px);
-    animation-name: img3;
-    animation-direction: alternate;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    transition: all 3s;
-}
-@keyframes img3 {
-    0%{
-        transform: translateX(0);
-    }    
-}
-.text2{
-    transform: translateX(0px);
-    animation-name: text;
-    animation-direction: alternate;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    transition: all 3s;
-}
-@keyframes text {
-    0%{
-        transform: translateX(0);
-    }    
-}
-.text1{
-    transform: translateX(0px);
-    animation-name: text;
-    animation-direction: alternate;
-    animation-duration: 2.5s;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-    transition: all 3s;
-}
-@keyframes text {
-    0%{
-        transform: translateX(0);
-    }    
-}
 .text{
     transform: translateX(0px);
     animation-name: text;
