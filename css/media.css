@@ -207,8 +207,8 @@
   }
 
 
-
   .img__animatsiya1{
+    display: block;
     transform: translateX(0);
     animation-name: img1;
     animation-direction: alternate;
@@ -219,23 +219,28 @@
     transition: all 3s;
 }
 @keyframes img1 {
-    0%{
+    100%{
+        display: block;
         transform: translateX(0);
     }    
 }
 .text{
-    transform: translateX(0px);
-    animation-name: text;
-    animation-direction: alternate;
+    position: relative;
+    /* display: none; */
+    right: 0px;
+    padding-left: 10px;
+    animation-name: text12;
     animation-duration: 1s;
     animation-delay: 2s;
     animation-timing-function: linear;
     animation-fill-mode: both;
     transition: all 3s;
 }
-@keyframes text {
-    0%{
-        transform: translateX(0);
+@keyframes text12 {
+    100%{
+        right: 0px;
+        display: block;
+
     }    
 }
 
