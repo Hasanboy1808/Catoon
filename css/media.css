@@ -56,16 +56,16 @@
       }
       .swiper-slide {
         margin-left: 10px;
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 240px;
       }
     
       .swiper-slide:nth-child(2n) {
-        width: 200px;
+        width: 220px;
       }
     
       .swiper-slide:nth-child(3n) {
-        width: 200px;
+        width: 220px;
       }
       .heroitems img{
         display: block;
