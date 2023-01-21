@@ -446,7 +446,7 @@ hr{
   .navburger{
     position: absolute;
     max-width: 430px;
-    width: 410px;
+    width: 400px;
     height: 400px;
     border: 1px solid red;
   }
