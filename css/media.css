@@ -190,7 +190,7 @@
     
 
     .line{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .text{
         margin-left: 0px;
@@ -305,12 +305,12 @@
 }
 .footer{
   background-color: black;
-  height: 100px;
+  height: 200px;
   /* margin-top: 50px; */
 }
 .footer__container{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   /* line-height: 60px; */
   flex-wrap: wrap;
@@ -318,8 +318,11 @@
 .footer__nav{
   display: flex;
   gap: 10px;
-  margin-right: 30px;
+  justify-content: center;
+  /* margin: 5px auto; */
+  /* margin-right: 30px; */
   flex-wrap: wrap;
+  
 
 }
 .footer__creator__text{
