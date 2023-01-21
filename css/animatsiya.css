@@ -212,8 +212,38 @@
         transform: translateX(0);
     }    
 }
+.text2{
+    transform: translateX(900px);
+    animation-name: text;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+@keyframes text {
+    100%{
+        transform: translateX(0);
+    }    
+}
+.text1{
+    transform: translateX(-900px);
+    animation-name: text;
+    animation-direction: alternate;
+    animation-duration: 2.5s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transition: all 3s;
+}
+@keyframes text {
+    100%{
+        transform: translateX(0);
+    }    
+}
 .text{
-    transform: translateX(600px);
+    transform: translateX(900px);
     animation-name: text;
     animation-direction: alternate;
     animation-duration: 1s;

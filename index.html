@@ -33,7 +33,9 @@
                             <li class="items">
                                 <a href="#">Top 10</a>
                             </li>
-                                <a class="navbtn" href="#">Biz Bilan Bog'lanish</a>
+                            <li class="items">
+                                <a href="#">Contact</a>
+                            </li>
                         </ul>
                         <div class="menu380px">
                             <span></span>
@@ -42,16 +44,43 @@
                         </div>
                     </nav>
             </div>
+            <div class="navburger">
+                <ul class="navburger__items">
+                    <li class="navburger__item active" >
+                        <a href="#boshsahifa ">Bosh Sahifa</a>
+                    </li>
+                    <li class="navburger__item">
+                        <a href="#premyeralar">Premyeralar</a>
+                    </li>
+                    <li class="navburger__item">
+                        <a href="#">Top 10</a>
+                    </li>
+                    <li class="navburger__item">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </header>
         <!-- header end -->
         <div class="contact">
             <div class="container contact__container">
+                <i id="x" class="fa-solid fa-xmark"></i>
+                <h2 class="contact__text1">Biz bilan bog'lanish</h2>
                 <form class="contact__form">
+                    <label for="Name" class="name">
+                       <h2 class="contact__label__text">Ismingiz</h2>
                     <input class="contact__name" type="text">
+                    </label>
+                    <label class="email" for="email"><h2 class="contact__label__text" >Pochta manzillingiz</h2> 
                     <input class="contact__email" type="email" name="email" id="email">
-                    <input class="contact__number" type="number" name="number" id="number">
+                    </label>
+                    <label class="number" for="number"><h2 class="contact__label__text">Password</h2>
+                    <input class="contact__number" type="password" name="password" id="password">
+                    </label>
+                    <label class="textarea" for="text"><h2 class="contact__label__text">Fikringiz yoki shikoyatingiz :</h2>
                     <textarea class="contact__text" name="text" id="text" cols="30" rows="10"></textarea>
-                    <div class="contact__btn"><button type="reset">Qaytadan</button><button type="submit">Jonatish</button></div>
+                    </label>
+                    <div class="contact__btns"><a href="#" class="contact__btn1">Qaytadan</a><a href="#" class="contact__btn1" >Jonatish</a></div>
                 </form>
 
             </div>
@@ -80,7 +109,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Excepturi, necessitatibus? ipsum dolor sit amet consectetur adipisicing elit. Fuga <br> voluptatum dolorem recusandae ut quidem laudantium pariatur <br> provident, tempora quisquam quia <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Excepturi, necessitatibus? ipsum dolor sit amet consectetur adipisicing elit. Fuga <br> voluptatum dolorem recusandae ut quidem </p>
                     </div>
                 </div>
-                <hr>
+                <hr class="line">
                 <div class="heroitems1">
                     <div class="text1">
                         <h3>Lorem, ipsum.</h3>
@@ -89,7 +118,7 @@
                     </div>
                     <img class="img__animatsiya2" src="img/Music Wallpapers 1080p HD Pictures One HD Wallpaper Pictures.jpg" width="400" alt="">
                 </div>
-                <hr>
+                <hr class="line">
                 <div class="heroitems2">
                     <img class="img__animatsiya3" src="img/Music Wallpapers 1080p HD Pictures One HD Wallpaper Pictures.jpg" width="400" alt="">
                     <div class="text2">
@@ -98,28 +127,29 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Excepturi, necessitatibus? ipsum dolor sit amet consectetur adipisicing elit. Fuga <br> voluptatum dolorem recusandae ut quidem laudantium pariatur <br> provident, tempora quisquam quia <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Excepturi, necessitatibus? ipsum dolor sit amet consectetur adipisicing elit. Fuga <br> voluptatum dolorem recusandae ut quidem </p>
                     </div>
                 </div>
+                <hr class="line">
             </div>
         </section>
     </div>
         <!-- Swiper -->
-        <br>
-    
-        <br>
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide ">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            <div class="swiper-slide">Slide 4</div>
-            <div class="swiper-slide">Slide 5</div>
-            <div class="swiper-slide">Slide 6</div>
-            <div class="swiper-slide">Slide 7</div>
-            <div class="swiper-slide">Slide 8</div>
-            <div class="swiper-slide">Slide 1</div>
-          </div>
-          <!-- <div class="swiper-pagination"></div> -->
+        <div class="carusel85">
+            <h2 class="carusel__title">Top 10</h2>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide "></div>
+                <div class="swiper-slide "></div>
+                <div class="swiper-slide "></div>
+                <div class="swiper-slide "></div>
+                <div class="swiper-slide "></div>
+                <div class="swiper-slide "></div>
+                <div class="swiper-slide "></div>
+                <div class="swiper-slide "></div>
+                <div class="swiper-slide "></div>
+                <div class="swiper-slide "></div>
+              </div>
+              <!-- <div class="swiper-pagination"></div> -->
+            </div>
         </div>
-    <br>
         <footer class="footer">
             <div class="container footer__container">
                 <h2 class="footer__creator__text"><i class="fa-sharp fa-solid fa-copyright"></i> Hasanboy Mamasoliyev</h2>
