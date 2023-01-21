@@ -306,7 +306,7 @@ hr{
 
   .footer{
     background-color: black;
-    height: 6;
+    height: 60px;
   }
   .footer__container{
     display: flex;
