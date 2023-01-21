@@ -42,7 +42,7 @@ body{
     display: flex;
     position: fixed;
     height: 75px;
-    width: 1468px;
+    width: 100%;
     background-color: transparent; 
     justify-content: space-between;
     align-items: center;

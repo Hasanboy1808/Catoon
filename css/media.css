@@ -24,8 +24,8 @@
         height: 70px;
         position: absolute;
         z-index: 5;
-        right: 35px;
-        top: -25px;
+        right: 20px;
+        top: -45px;
         display: block;
     }
     .menu380px span{
@@ -279,5 +279,30 @@
 .footer__nav__item{
   color: #ffffff;
   text-decoration: none;
+}
+.headercontiener{
+  display: flex;
+  position: absolute;
+  height: 35px;
+  width: 100%;
+  background-color: transparent; 
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(-175px);
+  animation-name: text1;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  /* animation-iteration-count: infinite; */
+  /* opacity: 0; */
+  animation-fill-mode: both;
+  transition: all 2s;
+  /* height: 75px; */
+}
+@keyframes text1 {
+  100%{
+      transform: translateY(-55px);
+  }
 }
 }
