@@ -41,9 +41,12 @@ body{
 .headercontiener{
     display: flex;
     position: fixed;
+    height: 75px;
+    width: 1468px;
+    background-color: transparent; 
     justify-content: space-between;
     align-items: center;
-    transform: translateY(-100px);
+    transform: translateY(-175px);
     animation-name: text1;
     animation-direction: alternate;
     animation-timing-function: linear;
@@ -53,17 +56,16 @@ body{
     /* opacity: 0; */
     animation-fill-mode: both;
     transition: all 2s;
-    height: 75px;
+    /* height: 75px; */
 }
 @keyframes text1 {
     100%{
-        transform: translateY(0px);
+        transform: translateY(-75px);
     }
 }
 .navitems{
     display: flex;
     align-items: center;
-    margin-top: 15px;
 }
 .navbtn{
     padding: 8px 15px;
@@ -136,13 +138,11 @@ body{
         transform: translateX(0);
     }
 }
-.herobox1{
-    background-color: rgb(0, 0, 0);
-    height: 500px;
-    
-}
+
 
 .herobox1{
+  position: relative;
+  margin-top: 75px;
     background-color: rgb(0, 0, 0);
     height: 500px;
     display: block;
