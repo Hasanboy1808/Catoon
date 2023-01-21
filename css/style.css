@@ -41,6 +41,7 @@ body{
 .headercontiener{
     display: flex;
     position: fixed;
+    z-index: 5;
     height: 75px;
     width: 100%;
     background-color: transparent; 
