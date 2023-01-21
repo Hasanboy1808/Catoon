@@ -444,6 +444,7 @@ hr{
     /* margin-bottom: 20px; */
   }
   .navburger{
+    display: none;
     position: absolute;
     max-width: 430px;
     width: 400px;
