@@ -153,13 +153,12 @@ body{
 .herobox1{
   position: relative;
   margin-top: 75px;
-    background: url('../img/Music\ Wallpapers\ 1080p\ HD\ Pictures\ One\ HD\ Wallpaper\ Pictures.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    display: block;
-    /* position: static; */
+  background: url('../img/Music\ Wallpapers\ 1080p\ HD\ Pictures\ One\ HD\ Wallpaper\ Pictures.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: block;
     
 }
 h1{
