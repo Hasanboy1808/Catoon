@@ -198,4 +198,9 @@
         font-size: 18px;
         color: #ffffff;
     }
+    .herobox1{
+      background-color: rgb(0, 0, 0);
+      height: 350px;
+      
+  }
 }
