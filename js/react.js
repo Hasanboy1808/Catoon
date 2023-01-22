@@ -17,14 +17,13 @@ let tn = document.getElementsByClassName('btn10')[0],
 
 
 
+
 tn.addEventListener('click',function () {
     modal.style.display = 'block'
 })
-
-saa.addEventListener('click', function(){
+x11.addEventListener('click',function(){
     modal.style.display = 'none'
 })
-
 navburger.addEventListener('click',function () {
     menubar.style.display = 'block'
     
