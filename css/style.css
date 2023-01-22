@@ -67,7 +67,7 @@ body{
   /* position: fixed; */
   /* display: none; */
   max-width: 1368px;
-  transform: translateX(-2000px);
+  transform: translateX(-20px);
 }
 @keyframes text1 {
     100%{
