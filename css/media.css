@@ -3,7 +3,7 @@
         font-size: 22px;
         padding-left: 0px;
         padding-top: 6px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .navitems{
         display: none;
@@ -25,7 +25,7 @@
         height: 70px;
         position: absolute;
         z-index: 5;
-        right: 70px;
+        margin-right: 50px;
         top: -40px;
         display: block;
     }
