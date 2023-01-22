@@ -1,6 +1,6 @@
 let tn = document.getElementsByClassName('btn10')[0],
     modal = document.getElementsByClassName('contact')[0],
-    x = document.getElementById('x'),
+    saa = document.getElementById('xasa'),
     a = document.getElementById('asa'),
     a1 = document.getElementById('asa1'),
     a2 = document.getElementById('asa2'),
@@ -9,11 +9,11 @@ let tn = document.getElementsByClassName('btn10')[0],
     b1 = document.getElementById('bsa1'),
     b2 = document.getElementById('bsa2'),
     b3 = document.getElementById('bsa3'),
-    x1 = document.getElementById('x1'),
+    x1 = document.getElementById('x11'),
     navburger = document.getElementsByClassName('menu380px')[0],
     menubar = document.getElementsByClassName('navburger')[0],
     span = document.getElementsByClassName('span')[0]
-    console.log(span);
+    console.log(saa);
 
 
 
@@ -21,7 +21,7 @@ tn.addEventListener('click',function () {
     modal.style.display = 'block'
 })
 
-x.addEventListener('click', function(){
+saa.addEventListener('click', function(){
     modal.style.display = 'none'
 })
 
@@ -29,7 +29,7 @@ navburger.addEventListener('click',function () {
     menubar.style.display = 'block'
     
 })
-x1.addEventListener('click', function(){
+saa.addEventListener('click', function(){
     menubar.style.display = 'none'
 })
 
