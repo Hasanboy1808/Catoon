@@ -42,7 +42,7 @@ body{
 .headerbox{
   position: fixed;
   z-index: 5;
-  transform: translateX(2000px);
+  /* transform: translateX(2000px); */
 }
 .header{
   display: flex;
