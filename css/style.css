@@ -465,7 +465,7 @@ hr{
   #x11{
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 0px;
     color: #ffffff;
     font-size: 28px;
     /* margin-bottom: 20px; */
